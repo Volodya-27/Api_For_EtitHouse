@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "PLnTFrWwwvThV5vTVBDIFd97ztuI32mnqlZZN2RyhW4HfE3zzpBu1awRf0wIrAqIWP4n97xUge6ZZfi5jzsZ+w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\linec\\source\\repos\\WebApplication21\\WebApplication21\\WebApplication21.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\linec\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.9\\microsoft.netcore.app.host.win-x64.5.0.9.nupkg.sha512",
+    "C:\\Users\\linec\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\linec\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\linec\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
