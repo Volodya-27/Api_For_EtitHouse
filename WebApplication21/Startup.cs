@@ -1,3 +1,4 @@
+using WebApplication21.DataDB;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -8,6 +9,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 
 namespace WebApplication21
 {
@@ -22,6 +24,9 @@ namespace WebApplication21
 
         public void ConfigureServices(IServiceCollection services)
         {
+            string connection = Configuration.GetConnectionString("DefaultConnection");
+            services.AddDbContext<DataContextHouses>(options => options.UseSqlServer(connection));
+
             services.AddControllers();
         }
 
@@ -33,7 +38,7 @@ namespace WebApplication21
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapControllers(); // подключаем маршрутизацию на контроллеры
+                endpoints.MapControllers(); 
             });
             app.UseHttpsRedirection();
 
